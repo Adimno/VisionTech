@@ -1,0 +1,180 @@
+
+
+/** SHOPPING CART **/
+
+.shopping-cart table {
+    text-align: center;
+    width: 100%;
+}
+
+.shopping-cart table thead th {
+    padding: 1.5rem;
+    font-size: 25px;
+    color: black;
+    background-color: gainsboro !important;
+}
+
+.shopping-cart table tr td {
+    border-bottom: var(--border);
+    padding: 1.5rem;
+    font-size: 18px;
+    color: var(--black);
+}
+
+.shopping-cart table input[type="number"] {
+    border: var(--border);
+    padding: 5px !important;
+    font-size: 18px;
+    color: var(--black);
+    width: 10rem;
+    border-radius: 5px !important;
+    box-shadow: 0 2px 5px rgb(0 0 0) !important;
+}
+
+.shopping-cart table input[type="submit"] {
+    cursor: pointer;
+    font-size: 18px !important;
+    background-color: rgb(255, 166, 0);
+    box-shadow: none;
+    margin-left: -1px;
+    margin-top: -18px;
+}
+
+.input-group .form-control {
+    width: 70px;
+    text-align: center;
+}
+
+.input-group {
+    margin-top: 28px;
+}
+
+
+/* .shopping-cart table input[type="submit"]:hover {
+    background-color: var(--black);
+} */
+
+.shopping-cart table .table-bottom {
+    background-color: gainsboro;
+    
+}
+
+.shopping-cart .checkout-btn {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.shopping-cart .checkout-btn a {
+    display: inline-block;
+    width: auto;
+}
+
+.shopping-cart .checkout-btn a.disabled {
+    pointer-events: none;
+    opacity: .5;
+    user-select: none;
+    background-color: var(--red);
+}
+
+
+/*CHECKOUT*/
+
+.checkout-form form {
+    padding: 2rem;
+    border-radius: .5rem;
+    background-color: var(--bg-color);
+}
+
+.checkout-form form .flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.checkout-form form .flex .inputBox {
+    flex: 1 1 40rem;
+}
+
+.checkout-form form .flex .inputBox span {
+    font-size: 20px;
+    color: var(--black);
+}
+
+.checkout-form form .flex .inputBox input,
+.checkout-form form .flex .inputBox select {
+    width: 100%;
+    background-color: var(--white);
+    font-size: 1.7rem;
+    color: var(--black);
+    border-radius: .5rem;
+    margin: 1rem 0;
+    padding: 1.2rem 1.4rem;
+    text-transform: none;
+    border: var(--border);
+}
+
+.display-order {
+    max-width: 50rem;
+    background-color: var(--white);
+    border-radius: .5rem;
+    text-align: center;
+    padding: 1.5rem;
+    margin: 0 auto;
+    margin-top: -43px;
+    box-shadow: var(--box-shadow);
+    border: var(--border);
+}
+
+.display-order span {
+    display: inline-block;
+    border-radius: .5rem;
+    background-color: var(--bg-color);
+    padding: .5rem 1.5rem;
+    font-size: 30px;
+    color: var(--black);
+    margin: .5rem;
+}
+
+.display-order span.grand-total {
+    width: 100%;
+    background-color: var(--red);
+    color: var(--white);
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+.order-message-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1100;
+    background-color: var(--dark-bg);
+    width: 100%;
+}
+
+
+/** Quantity Cart **/
+
+.quantity-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+input {
+    border: none;
+    outline: none;
+    padding: 5px;
+    border-radius: 5px;
+   
+    box-shadow: 0 2px 5px rgba(0, 0, 0);
+}

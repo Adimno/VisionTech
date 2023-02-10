@@ -1,0 +1,280 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #1c1a2e;
+    box-sizing: border-box;
+    
+}
+
+
+
+
+/*--- navigation bar ---*/
+
+.navbar {
+    background: #d2d1d1;
+    height:50px;
+    
+}
+
+.nav-link,
+.navbar-brand {
+    color: black;
+    cursor: pointer;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+.nav-link {
+    margin-right: 1em !important;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+
+/*--- slider ---*/
+
+.carousel-item{
+    height: 79vh;
+    background: no-repeat scroll center scroll cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.carousel-item::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: black;
+    opacity: 0.7;
+}
+.carousel-caption h5{
+    font-size: 90px;
+    font-weight: 700;
+    text-align: left;
+    vertical-align: baseline;
+    position: absolute;
+    top:-350%;
+    left: 0;
+}
+.carousel-caption p{
+    font-size: 18px;
+    top: 2rem;
+    position: absolute;
+    top:-150%;
+    left: 0;
+}
+
+.mfp-hide{
+    display: none !important;
+}
+
+.button1{
+    padding: 15px 20px;
+    border-color: white;
+    font-weight: bold;
+    display: inline-block;
+}
+
+
+
+.button1{
+    border: 2px solid yellow;
+    color: indigo;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
+    border-radius: 50px;
+    background-color: yellow;
+    font-weight: bold;
+}
+
+.button1:hover, .button1:focus{
+    background: transparent;
+    text-decoration: none;
+    color: indigo;
+    font-weight: bold;
+}
+
+/*--- header pic ---*/
+
+.movie1 .luck {
+    height: 400px;
+    width: 100%;
+    
+    
+}
+
+.movie1 .luck1 {
+    height: 450px;
+    position: absolute; top: 200pt; left: 150pt; 
+    
+    
+}
+
+
+/*--- luck content ---*/
+.luck_content {
+    position: absolute; top: 300pt; left: 420pt; 
+    color: #fcbf01;
+    padding: 90px 0;
+    margin-right: 5rem;
+   
+   
+}
+
+.luck_content1 {
+    position: absolute; top: 300pt; left: 535pt; 
+    color: white;
+    padding: 90px 0;
+   text-indent: 5px;
+}
+
+/*--- luck stars ---*/
+
+.rating_content{
+    position: absolute; top: 380pt; left: 420pt; 
+    color: #fcbf01;
+    padding: 90px 0;
+}
+
+/*--- Rating Stars ---*/
+.rating-star{
+    position: absolute;
+    bottom: 0;
+    top: 594px;
+    left: 46rem;
+}
+
+
+
+.checked{
+    color: orange;
+}
+
+/*--- Back Button ---*/
+
+.back-btn{
+    background-color: #fcbf01;
+    border-color: #fcbf01;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+    width: 20%;
+    height: 40px;
+    padding: 4px 4px;
+    border-radius: 20px;
+    bottom: -200px;
+    top: 480px;
+    left: 45rem;
+    right: 10rem;
+    opacity: 0.9;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+  }
+ 
+ 
+ 
+  .back-btn,
+ .back-btn::before {
+   cursor: pointer;
+ }
+ 
+  .back-btn:after {
+     content: "";
+     background: white;
+     display: block;
+     position: absolute;
+     padding-top: 300%;
+     padding-left: 350%;
+     margin-left: -20px!important;
+     margin-top: -120%;
+     opacity: 0;
+     transition: all 0.8s
+   }
+ 
+   .back-btn:active:after {
+     padding: 0;
+     margin: 0;
+     opacity: 1;
+     transition: 0s
+   }
+ 
+
+
+   
+/*--- sypnopsis ---*/
+
+.sypnopsis_luck {
+    position: absolute; top: 415pt; left: 420pt;   
+    color: #fcbf01;
+    padding: 100px 0;
+   
+   
+        
+  }
+
+  .synopsis1_luck {
+    position: absolute; top: 440pt; left: 420pt;    
+    color: rgb(255, 255, 255);
+    padding: 110px 0; 
+    
+  }
+
+
+  /*--- button ---*/
+
+  .button_luck {
+    position: absolute; top: 560pt; left: 420pt;   
+    background-color: #C7A317;
+    border-radius: 25px;
+    margin-top: 65px;
+    
+  }
+
+  .button_luck .bt1_luck{
+ 
+    color: white;
+              
+  }
+
+  
+  .button_luck1 .bt1_luck{
+ 
+    color: white;
+    padding: 15px 15;     
+  }
+
+
+  .button_luck1 {
+    position: absolute; top: 560pt; left: 540pt;   
+    background-color: #C7A317;
+    border-radius: 25px;
+    margin-top: 65px;  
+        
+  }
+
+/*--- footer ---*/
+
+.page-footer {
+    background-color: #d2d1d1;
+    color: #1c1a2e;
+    padding: 2em;
+    margin-top: 40rem;
+}
+
+.footer-copyright {
+    color: #1c1a2e;
+    padding: 2em;
+}
+
